@@ -8,7 +8,6 @@ Welcome to the Simple Stock Price App! This app displays the historical **closin
 
 If you're curious about how Google's stock has performed over time, you're in the right place. You can explore the closing price and volume trends using interactive charts below.
 """)
-# https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 # Define the ticker symbol
 tickerSymbol = 'GOOGL'
 # Get data on this ticker
