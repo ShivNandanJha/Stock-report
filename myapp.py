@@ -33,3 +33,12 @@ In summary, this app allows you to visualize and explore the historical closing 
 Feel free to interact with the charts to zoom in on specific time periods or to closely examine changes in stock prices and volumes. Please note that past performance may not necessarily predict future trends in the stock market.
 """)
 
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
